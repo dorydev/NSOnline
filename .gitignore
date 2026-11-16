@@ -1,0 +1,13 @@
+.env
+nso-auth*.json
+/nsonline
+/nsonline.exe
+.nso-auth-*.tmp
+
+/build
+/app
+/backend
+.env.example
+AUDIT.md
+*.work
+*.json
