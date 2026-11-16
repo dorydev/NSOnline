@@ -6,7 +6,9 @@ nso-auth*.json
 
 /build
 /app
-/backend
+/backend/cmd
+/backend/internal
+/backend/test
 .env.example
 AUDIT.md
 *.work
