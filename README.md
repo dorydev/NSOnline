@@ -2,18 +2,24 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.0.1-blue"/>
-  <img src="https://img.shields.io/badge/MacOS-26+-black?logo=Apple" />
-  <img src="https://img.shields.io/badge/iOS-26+-black?logo=Apple" />
+  <img src="https://img.shields.io/badge/MacOS-12+-black?logo=Apple" />
   <img src="https://img.shields.io/badge/Windows-10+-blue?logo=microsoft" />
   <img src="https://img.shields.io/badge/Linux-AppImage%20%7C%20deb-yellow?logo=Linux"/>
-  <img src="https://img.shields.io/badge/Language-Go-blue" />
-  <img src="https://img.shields.io/badge/Langage-Flutter-lightblue" />
-  <img src="https://img.shields.io/github/stars/dorydev/NSOnline" />
+  <img src="https://img.shields.io/github/go-mod/go-version/dorydev/NSOnline?filename=backend/go.mod"/>
+  <img src="https://img.shields.io/badge/Language-Flutter-lightblue" />
+  <img src="https://img.shields.io/github/stars/dorydev/NSOnline"/>
 </p>
 
 </br>
 
 Nintendo Switch Online rich presence for discord.
+
+## Prerequisites
+
+- `Go 1.22+` (for the CLI)
+- `Flutter 3.x` (for the desktop app only)
+- The Discord desktop app, running
+- A client registered with `nxapi-auth` (see Configuration)
 
 ## Build in CLI
 
