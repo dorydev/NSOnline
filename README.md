@@ -1,4 +1,4 @@
-# NSOnline - Nintendo rich presence for switch
+# NSOnline - Nintendo rich presence for discord
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.0.1-blue"/>
