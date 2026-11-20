@@ -7,6 +7,7 @@
 nso-auth*.json
 .nso-auth-*.tmp
 backend/internal/secrets/secrets_gen.go
+release.sh
 
 # tests
 app/test/
