@@ -1,15 +1,30 @@
+# --------------------------
+# Ignored files for NSOnline
+# --------------------------
+
+# secrets & local accounts
 .env
 nso-auth*.json
+.nso-auth-*.tmp
+backend/internal/secrets/secrets_gen.go
+
+# tests
+app/test/
+backend/test/
+*_test.go
+**/testdata/
+coverage.out
+
+# build outputs
+build/
+dist/
 /nsonline
 /nsonline.exe
-.nso-auth-*.tmp
 
-/build
-/app
-/backend/cmd
-/backend/internal
-/backend/test
-.env.example
-AUDIT.md
-*.work
-*.json
+# frontend
+.idea
+.dart_tool
+
+# misc
+.DS_Store
+*.log

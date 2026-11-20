@@ -1,0 +1,5 @@
+#!/bin/sh
+# AppImage entry point: run the Flutter app from the embedded bundle; the
+# `nsonline-core` backend sits next to it.
+HERE="$(dirname "$(readlink -f "$0")")"
+exec "$HERE/usr/lib/nsonline/nsonline" "$@"
