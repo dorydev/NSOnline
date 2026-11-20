@@ -1,0 +1,13 @@
+Package: nsonline
+Version: @VERSION@
+Architecture: amd64
+Maintainer: @MAINTAINER@
+Installed-Size: @INSTALLED_SIZE@
+Depends: libgtk-3-0, libwebkit2gtk-4.1-0 | libwebkit2gtk-4.0-37, libayatana-appindicator3-1 | libappindicator3-1, libnotify4
+Section: utils
+Priority: optional
+Homepage: https://github.com/dorydev/NSOnline
+Description: Nintendo Switch Online presence to Discord Rich Presence
+ NSOnline mirrors the game a Nintendo Switch Online friend is playing to
+ Discord Rich Presence. Desktop app (Flutter) with a bundled local backend.
+ Not affiliated with or endorsed by Nintendo. Licence: AGPL-3.0-or-later.
