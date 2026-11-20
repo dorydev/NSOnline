@@ -47,6 +47,7 @@ dependencies:
   crypto: ^3.0.8
   local_notifier: ^0.1.6
   screen_retriever: ^0.2.0
+  material_ui: ^1.11.1
 
 dev_dependencies:
   integration_test:

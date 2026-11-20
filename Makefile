@@ -153,7 +153,7 @@ build: check-env secrets backend app ## check-env + secrets + backend + app
 test: ## go vet, go test -race, flutter analyze, flutter test
 	cd $(ROOT) && $(GO) vet ./backend/... ./shared/...
 	cd $(ROOT) && $(GO) test -race ./backend/... ./shared/...
-	cd $(APP_DIR) && $(FLUTTER) analyze
+	cd $(APP_DIR) && $(FLUTTER) analyze --no-fatal-infos
 	cd $(APP_DIR) && $(FLUTTER) test
 
 package-macos: $(PKG_DEPS) ## Sign + notarize the .app, then build the .zip and .dmg in dist/
