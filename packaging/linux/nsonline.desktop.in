@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=NSOnline
+GenericName=Nintendo Switch Online presence for Discord
+GenericName[fr]=Présence Nintendo Switch Online pour Discord
+Comment=Show a Nintendo Switch friend's game as Discord Rich Presence
+Comment[fr]=Affiche le jeu Nintendo Switch d'un ami dans la présence Discord
+Exec=@EXEC@
+Icon=dev.nsonline.app
+Terminal=false
+Categories=Utility;
+Keywords=Nintendo;Switch;Discord;Rich Presence;
+StartupWMClass=nsonline
+StartupNotify=true

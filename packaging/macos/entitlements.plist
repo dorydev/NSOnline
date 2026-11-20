@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Hardened-runtime entitlements for the Developer ID (non App Store) build.
+  - No app sandbox: the app spawns the bundled `nsonline-core` backend and both talk
+    to Discord over its local IPC socket, which the sandbox would block.
+  - network.client / network.server: Nintendo/nxapi HTTPS calls and the
+    loopback-only API (127.0.0.1) between the app and the backend.
+  - allow-jit: required by the Flutter engine under the hardened runtime.
+-->
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<key>com.apple.security.cs.allow-jit</key>
+	<true/>
+</dict>
+</plist>
